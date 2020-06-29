@@ -6,17 +6,17 @@ shortest route between two point on map. Open Street Map file(.osm) is used as i
 Sample Example:
 ## Map of my Area
 `Point 1` - is my start point(home) and `Point 2` - is destination (tv repair shop).
-<img src="images/home_2_tv_repair.jpg" width="600" height="450" />
+<img src="images/home_2_tv_repair.jpg" width="1024" height="720" />
 
 ## Route planned by Algorithm
 Algorithm read (.osm) file imported from Open Street map as Export file and found the path. From my experience, it is 
 nearly good route to reach there but not the best. If I have to make choice it will be second in the list. So, this
 Algorithm work quite nicely in my case.
-<img src="images/algorithm_predicted_path.jpg" width="600" height="450" />
+<img src="images/algorithm_predicted_path.jpg" width="1024" height="720" />
 
 ## Distance Estimated by the Algorithm
 I haven't really measured this distance. but, it is ok as shop is not too far and `340 meters` is not unrealistic.
-<img src="images/distance.jpg" width="600" height="450" />
+<img src="images/distance.jpg" width="1024" height="720" />
 
 
 
