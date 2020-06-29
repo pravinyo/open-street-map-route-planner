@@ -24,11 +24,11 @@ I haven't really measured this distance. but, it is ok as shop is not too far an
 
 When cloning this project, be sure to use the `--recurse-submodules` flag. Using HTTPS:
 ```
-git clone https://github.com/pravinyo/cpp_learning.git --recurse-submodules
+git clone https://github.com/pravinyo/open-street-map-route-planner.git --recurse-submodules
 ```
 or with SSH:
 ```
-git clone git@github.com:udacity/cpp_learning.git --recurse-submodules
+git clone git@github.com:udacity/open-street-map-route-planner.git --recurse-submodules
 ```
 
 ## Dependencies for Running Locally
