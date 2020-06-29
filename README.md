@@ -1,18 +1,34 @@
 # Route Planning Project
 
-This repo contains the starter code for the Route Planning project.
+This repo contains code for the Route Planning project. This Project uses A Star Algorithm to find the 
+shortest route between two point on map. Open Street Map file(.osm) is used as input data for the algorithm.
 
-<img src="map.png" width="600" height="450" />
+Sample Example:
+## Map of my Area
+`Point 1` - is my start point(home) and `Point 2` - is destination (tv repair shop).
+<img src="images/home_2_tv_repair.jpg" width="600" height="450" />
+
+## Route planned by Algorithm
+Algorithm read (.osm) file imported from Open Street map as Export file and found the path. From my experience, it is 
+nearly good route to reach there but not the best. If I have to make choice it will be second in the list. So, this
+Algorithm work quite nicely in my case.
+<img src="images/algorithm_predicted_path.jpg" width="600" height="450" />
+
+## Distance Estimated by the Algorithm
+I haven't really measured this distance. but, it is ok as shop is not too far and `340 meters` is not unrealistic.
+<img src="images/distance.jpg" width="600" height="450" />
+
+
 
 ## Cloning
 
 When cloning this project, be sure to use the `--recurse-submodules` flag. Using HTTPS:
 ```
-git clone https://github.com/udacity/CppND-Route-Planning-Project.git --recurse-submodules
+git clone https://github.com/pravinyo/cpp_learning.git --recurse-submodules
 ```
 or with SSH:
 ```
-git clone git@github.com:udacity/CppND-Route-Planning-Project.git --recurse-submodules
+git clone git@github.com:udacity/cpp_learning.git --recurse-submodules
 ```
 
 ## Dependencies for Running Locally
@@ -28,6 +44,7 @@ git clone git@github.com:udacity/CppND-Route-Planning-Project.git --recurse-subm
   * Windows: recommend using [MinGW](http://www.mingw.org/)
 * IO2D
   * Installation instructions for all operating systems can be found [here](https://github.com/cpp-io2d/P0267_RefImpl/blob/master/BUILDING.md)
+  * Run - `sudo make install` in debug folder to make io2d visible to project
   * This library must be built in a place where CMake `find_package` will be able to find it
 
 ## Compiling and Running
